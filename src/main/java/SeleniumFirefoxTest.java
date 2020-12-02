@@ -6,8 +6,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import static java.lang.System.getProperty;
 
 public class SeleniumFirefoxTest {
-    public static void main(String[] args){
-        System.setProperty("webdriver.gecko.driver",getProperty("user.dir") + "/DriverFiles/geckodriver");
+    public static void main(String[] args) {
+        System.setProperty("webdriver.gecko.driver", getProperty("user.dir") + "/DriverFiles/geckodriver");
         //Setting up the driver and giving the pth to the driver file
         WebDriver driver = new FirefoxDriver();
         //Initialize the driver
@@ -21,7 +21,7 @@ public class SeleniumFirefoxTest {
         System.out.println(driver.getCurrentUrl());
         //Printing the URL for verifying that we have hit the correct URL
 
-//        driver.close();
+        driver.close();
         // To close window that has the focus
 
     }

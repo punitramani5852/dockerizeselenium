@@ -5,6 +5,8 @@ This is a simple plug and play template that is configured for chrome and firefo
 
 Clone the repository on the local system.
 
+Download the latest driver files from the links given below and place them in the DriverFiles folder.
+
 Go to the java files, enter the URL to hit, and run the java file.
 
 Firefox driver file download : https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html

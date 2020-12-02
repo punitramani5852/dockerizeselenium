@@ -4,8 +4,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static java.lang.System.getProperty;
 
 public class SeleniumChromeTest {
-    public static void main(String[] args){
-    System.setProperty("webdriver.chrome.driver",getProperty("user.dir") + "/DriverFiles/chromedriver");
+    public static void main(String[] args) {
+        System.setProperty("webdriver.chrome.driver", getProperty("user.dir") + "/DriverFiles/chromedriver");
 
         //Setting up the driver and giving the pth to the driver file
         WebDriver driver = new ChromeDriver();
