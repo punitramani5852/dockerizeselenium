@@ -1,9 +1,9 @@
 # Getting-started-with-Selenium-4.0
-This repository contains a plug and play template of getting start with selenium 4.0.
+This repository contains a plug and play template for getting started with selenium 4.0.
 
 This is a simple plug and play template that is configured for chrome and firefox.
 
-Clone the repository on the local system.
+Clone the repository on your local system.
 
 Download the latest driver files from the links given below and place them in the DriverFiles folder.
 
