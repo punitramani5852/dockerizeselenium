@@ -7,7 +7,7 @@ import static java.lang.System.getProperty;
 
 public class SeleniumFirefoxTest {
     public static void main(String[] args) {
-        System.setProperty("webdriver.gecko.driver", getProperty("user.dir") + "/DriverFiles/geckodriver");
+        System.setProperty("webdriver.gecko.driver", getProperty("user.dir") + "/app/bin/geckodriver");
         //Setting up the driver and giving the pth to the driver file
         WebDriver driver = new FirefoxDriver();
         //Initialize the driver
