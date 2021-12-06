@@ -12,3 +12,4 @@ Go to the java files, enter the URL to hit, and run the java file.
 Firefox driver file download : https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html
 
 Chrome driver file download : https://sites.google.com/a/chromium.org/chromedriver/
+Added docker file in project
